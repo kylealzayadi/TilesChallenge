@@ -1,0 +1,73 @@
+.square {
+    height: 500px;
+    width: 1000px;
+    background-color: pink;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    
+}
+.triangle-up {
+    top: 50px;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+	border-left: 251px solid transparent;
+	border-right: 251px solid transparent;
+    border-bottom: 251px solid black;
+    left: 300px;
+    z-index: 10;
+}
+.triangle-down {
+    top: 57px;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+	border-left: 240px solid transparent;
+	border-right: 240px solid transparent;
+    border-bottom: 240px solid grey;
+    left: 310.5px;
+    z-index: 10;
+}
+
+/* .trapezoid {
+	border-bottom: 150px solid #555;
+	border-left: 300px solid transparent;
+	border-right: 300px solid transparent;
+	height: 0;
+    width: 125px;
+    position: absolute;
+    left: 200px;
+} */
+button{
+    height: 50px;
+    width: 100px;
+    font-size: 30px;
+    font-weight: 800;
+    position: absolute;
+    left: 730px;
+    top: 700px;
+}
+.rectangle {
+    height: 248px;
+    width: 748px;
+    background-color: #555;
+    top: 51px;
+    position: absolute;
+    left: 550px;
+    border: 1px black solid;
+  }
+  hr{
+      margin-top: 300px;
+  }
+#Boy{
+    left: 50px;
+    z-index: 1000;
+    position: relative;
+    width:50px;
+    height: 50px;
+}
+#boy{
+    width: 50px;
+    height: 50px;
+}
